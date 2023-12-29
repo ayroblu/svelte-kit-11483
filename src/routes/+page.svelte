@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import { base } from '$app/paths';
+</script>
+
+<h1>Click link to be redirected to a trailing slash url for base path</h1>
+<p><a href="{base}/temp">Next path</a></p>
